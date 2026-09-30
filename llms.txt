@@ -1,29 +1,15 @@
 # TinyForge Game Tools
-TinyForge Game Tools is a small collection of focused game-balancing utilities for indie game developers.
 
-Canonical site: https://nikos0207.github.io/tinyforge-tools/
+TinyForge Game Tools publishes focused browser tools for game designers and players.
 
-## Free browser tools
-- DropChance: https://nikos0207.github.io/tinyforge-tools/dropchance/ — drop-rate probability, expected attempts and confidence thresholds.
-- Hard Pity Calculator: https://nikos0207.github.io/tinyforge-tools/pity-calculator/ — hard-pity average attempts and worst-case cap.
-- XP & Leveling Time Calculator: https://nikos0207.github.io/tinyforge-tools/xp-calculator/ — progression XP, hours and session estimates.
-- Game Economy Faucet & Sink Calculator: https://nikos0207.github.io/tinyforge-tools/economy-calculator/ — simple currency flow and inflation-pressure estimate.
+## Free tools
+- DropChance: https://nikos0207.github.io/tinyforge-tools/dropchance/ — RNG/drop-rate probability calculator.
+- Hard Pity Calculator: https://nikos0207.github.io/tinyforge-tools/pity-calculator/ — models increasing-chance pity and guaranteed pulls.
+- XP & Leveling Time Calculator: https://nikos0207.github.io/tinyforge-tools/xp-time-calculator/ — estimates hours, sessions and weeks to an XP target.
+- Game Economy Faucet & Sink Calculator: https://nikos0207.github.io/tinyforge-tools/economy-sink-calculator/ — estimates daily currency creation, sinks and net pressure.
 
-## Paid tools
-- GrindScope — XP progression visualizer: https://nikos0207.itch.io/grindscope-xp-progression-visualizer
-- EconScope — game economy stress tester: https://nikos0207.itch.io/econscope-game-economy-stress-tester
-- LootSim — loot table and dry-streak simulator: https://nikos0207.itch.io/lootsim-loot-table-dry-streak-simulator
-- Current bundle: https://nikos0207.itch.io/s/202514/tinyforge-7-day-game-balancing-toolkit
+## Services
+QuickForge Digital offers small scoped spreadsheet, calculator, presentation and digital-production services: https://nikos0207.github.io/tinyforge-tools/services/
 
-## Guides
-- Drop-rate probability: https://nikos0207.github.io/tinyforge-tools/guides/drop-rate-probability/
-- Hard pity: https://nikos0207.github.io/tinyforge-tools/guides/hard-pity/
-- XP progression: https://nikos0207.github.io/tinyforge-tools/guides/xp-progression/
-- Game economy faucets and sinks: https://nikos0207.github.io/tinyforge-tools/guides/game-economy/
-
-## QuickForge Digital services
-Service portfolio: https://nikos0207.github.io/tinyforge-tools/services/
-- Spreadsheet help: https://nikos0207.github.io/tinyforge-tools/services/spreadsheet-help.html
-- Custom web calculators: https://nikos0207.github.io/tinyforge-tools/services/web-calculator.html
-- Presentation redesign: https://nikos0207.github.io/tinyforge-tools/services/presentation-redesign.html
-- YouTube thumbnails: https://nikos0207.github.io/tinyforge-tools/services/youtube-thumbnails.html
+## Source
+https://github.com/NikoS0207/tinyforge-tools
