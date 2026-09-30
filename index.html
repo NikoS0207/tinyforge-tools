@@ -1,11 +1,50 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>TinyForge Tools — Small tools for indie game developers</title><meta name="description" content="Focused offline tools for game balancing and indie development.">
-<style>:root{--bg:#0d1117;--panel:#161b22;--line:#30363d;--text:#e6edf3;--muted:#8b949e}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}a{color:inherit}.wrap{max-width:1060px;margin:auto;padding:0 24px}header{padding:24px 0;border-bottom:1px solid var(--line)}.brand{font-weight:800}.muted{color:var(--muted)}.hero{padding:90px 0 55px}.hero h1{font-size:clamp(38px,7vw,72px);line-height:1.02;margin:0 0 18px;max-width:850px}.hero p{font-size:20px;max-width:680px;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:18px;padding-bottom:70px}.card{border:1px solid var(--line);background:var(--panel);border-radius:16px;padding:22px}.tag{display:inline-block;font-size:12px;border:1px solid var(--line);border-radius:999px;padding:4px 8px;color:var(--muted)}h2{margin:14px 0 8px}.btn{display:inline-block;margin-top:12px;text-decoration:none;background:#1f6feb;padding:10px 14px;border-radius:9px;font-weight:700}footer{border-top:1px solid var(--line);padding:25px 0 40px;color:var(--muted);font-size:13px}</style></head>
-<body><header><div class="wrap"><span class="brand">TinyForge Tools</span> <span class="muted">— focused utilities for indie devs</span></div></header>
-<main class="wrap"><section class="hero"><span class="tag">No subscriptions · No telemetry · Works offline</span><h1>Small tools that solve annoying game-dev problems.</h1><p>Focused balancing and workflow utilities that open in your browser and stay out of your way.</p></section>
-<section class="grid">
-<article class="card"><span class="tag">LIVE · v1.0</span><h2>GrindScope</h2><p class="muted">Design XP curves, estimate real grind time, inspect target-level pacing, and export progression data.</p><a class="btn" href="https://nikos0207.itch.io/grindscope-xp-progression-visualizer">View on itch.io · $2.99+</a></article>
-<article class="card"><span class="tag">LIVE · v1.0</span><h2>EconScope</h2><p class="muted">Stress-test faucets, sinks, wealth growth and target-item affordability before your game economy ships.</p><a class="btn" href="https://nikos0207.itch.io/econscope-game-economy-stress-tester">View on itch.io · $3.99+</a></article>
-<article class="card"><span class="tag">LIVE · v1.0</span><h2>LootSim</h2><p class="muted">Monte Carlo loot-table testing with dry-streak probabilities, soft pity and hard pity simulation.</p><a class="btn" href="https://nikos0207.itch.io/lootsim-loot-table-dry-streak-simulator">View on itch.io · $3.99+</a></article>
-</section></main><footer><div class="wrap">© 2026 TinyForge Tools.</div></footer></body></html>
+<title>TinyForge Tools — Offline game balancing utilities</title>
+<meta name="description" content="Offline, focused game-balancing tools for progression, economies and loot systems. No subscriptions. No telemetry.">
+<style>
+:root{--bg:#0a0e14;--panel:#111823;--panel2:#0d131c;--line:#273241;--text:#eff5fb;--muted:#93a2b5;--accent:#5f9cff;--good:#68d79b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:linear-gradient(180deg,#0a0e14,#0d1117 45%,#0a0e14);color:var(--text);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+a{color:inherit}.wrap{max-width:1120px;margin:auto;padding:0 24px}nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;border-bottom:1px solid var(--line)}.brand{font-weight:900;letter-spacing:-.02em}.navlinks a{color:var(--muted);text-decoration:none;margin-left:22px;font-size:14px}
+.hero{padding:92px 0 58px;display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center}.eyebrow{color:#9bbdff;font-weight:800;font-size:13px;letter-spacing:.09em;text-transform:uppercase}.hero h1{font-size:clamp(42px,7vw,76px);line-height:.98;letter-spacing:-.045em;margin:10px 0 20px}.hero p{font-size:20px;color:var(--muted);max-width:690px}.cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}.btn{display:inline-block;text-decoration:none;border-radius:10px;padding:12px 16px;font-weight:800}.primary{background:var(--accent);color:#fff}.secondary{background:#171f2b;border:1px solid var(--line)}
+.heroCard{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:24px}.stat{display:flex;justify-content:space-between;padding:12px 0;border-bottom:1px solid var(--line)}.stat:last-child{border:0}.stat span{color:var(--muted)}
+.trust{display:flex;gap:10px;flex-wrap:wrap;margin:5px 0 58px}.pill{border:1px solid var(--line);background:var(--panel2);color:var(--muted);border-radius:999px;padding:7px 10px;font-size:13px}
+section{padding:22px 0 66px}h2{font-size:34px;letter-spacing:-.025em;margin:0 0 10px}.sectionIntro{color:var(--muted);max-width:720px;margin:0 0 26px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.product{background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden}.product img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;border-bottom:1px solid var(--line)}.pad{padding:20px}.tag{display:inline-block;color:#a9c5ff;border:1px solid #30466d;background:#111b2b;border-radius:999px;padding:4px 8px;font-size:12px}.product h3{font-size:24px;margin:12px 0 7px}.product p{color:var(--muted);min-height:76px}.price{font-weight:900;font-size:19px;margin-top:12px}
+table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden}th,td{padding:14px 16px;border-bottom:1px solid var(--line);text-align:left}th{color:var(--muted);font-size:13px}tr:last-child td{border-bottom:0}.yes{color:var(--good);font-weight:800}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.step{border:1px solid var(--line);background:var(--panel);padding:20px;border-radius:14px}.n{font-size:12px;color:#a9c5ff;font-weight:900}.step h3{margin:8px 0}.step p{color:var(--muted)}
+.final{border:1px solid var(--line);background:linear-gradient(135deg,#111a29,#111823);border-radius:18px;padding:32px;display:flex;justify-content:space-between;gap:24px;align-items:center}.final p{color:var(--muted);margin:6px 0 0}
+footer{border-top:1px solid var(--line);padding:26px 0 40px;color:var(--muted);font-size:13px}
+@media(max-width:850px){.hero{grid-template-columns:1fr}.grid,.steps{grid-template-columns:1fr}.product p{min-height:0}.navlinks{display:none}.final{display:block}.final .btn{margin-top:18px}}
+</style></head>
+<body><div class="wrap">
+<nav><div class="brand">TinyForge Tools</div><div class="navlinks"><a href="#tools">Tools</a><a href="#compare">Compare</a><a href="#why">Why TinyForge</a></div></nav>
+<header class="hero">
+<div><div class="eyebrow">Game balancing without spreadsheet pain</div><h1>Balance your game before players break it.</h1><p>Focused offline tools for progression pacing, game economies and loot systems. Open the file, test your numbers, export the results.</p>
+<div class="cta"><a class="btn primary" href="#tools">Browse the tools</a><a class="btn secondary" href="https://nikos0207.itch.io/">View itch.io store</a></div></div>
+<div class="heroCard"><div class="stat"><strong>3</strong><span>specialized balancing tools</span></div><div class="stat"><strong>$2.99–$3.99</strong><span>one-time price</span></div><div class="stat"><strong>100% offline</strong><span>after download</span></div><div class="stat"><strong>0 telemetry</strong><span>your data stays local</span></div></div>
+</header>
+<div class="trust"><span class="pill">No subscriptions</span><span class="pill">No accounts</span><span class="pill">No telemetry</span><span class="pill">CSV / JSON exports</span><span class="pill">Built for indie developers</span></div>
+
+<section id="tools"><h2>Pick the problem you need to solve</h2><p class="sectionIntro">Each tool is intentionally narrow: fewer menus, faster answers, and no SaaS overhead.</p>
+<div class="grid">
+<article class="product"><img src="assets/grindscope.png" alt="GrindScope progression curve preview"><div class="pad"><span class="tag">Progression</span><h3>GrindScope</h3><p>Turn XP formulas into player-time estimates. Compare curves, inspect target-level pacing and export per-level balancing data.</p><div class="price">$2.99+</div><a class="btn primary" href="https://nikos0207.itch.io/grindscope-xp-progression-visualizer">Get GrindScope</a></div></article>
+<article class="product"><img src="assets/econscope.png" alt="EconScope game economy chart preview"><div class="pad"><span class="tag">Economy</span><h3>EconScope</h3><p>Stress-test currency faucets, sinks, wealth growth, purchase behavior and item affordability across long simulations.</p><div class="price">$3.99+</div><a class="btn primary" href="https://nikos0207.itch.io/econscope-game-economy-stress-tester">Get EconScope</a></div></article>
+<article class="product"><img src="assets/lootsim.png" alt="LootSim loot table preview"><div class="pad"><span class="tag">RNG / Loot</span><h3>LootSim</h3><p>Run Monte Carlo loot tests, measure dry streaks and model soft or hard pity before players experience your RNG.</p><div class="price">$3.99+</div><a class="btn primary" href="https://nikos0207.itch.io/lootsim-loot-table-dry-streak-simulator">Get LootSim</a></div></article>
+</div></section>
+
+<section id="compare"><h2>Which tool do I need?</h2><p class="sectionIntro">Start with the system that can hurt your player experience the most.</p>
+<table><thead><tr><th>Problem</th><th>Tool</th><th>Best for</th><th>Exports</th></tr></thead><tbody>
+<tr><td>Leveling feels too fast / too grindy</td><td><strong>GrindScope</strong></td><td>XP curves, progression pacing</td><td class="yes">CSV + JSON</td></tr>
+<tr><td>Players accumulate too much currency</td><td><strong>EconScope</strong></td><td>Faucets, sinks, affordability</td><td class="yes">CSV + JSON</td></tr>
+<tr><td>Rare drops feel unfair</td><td><strong>LootSim</strong></td><td>Loot tables, pity, dry streaks</td><td class="yes">CSV + JSON</td></tr>
+</tbody></table></section>
+
+<section id="why"><h2>Designed to disappear into your workflow</h2><div class="steps">
+<div class="step"><div class="n">01</div><h3>Download</h3><p>One small ZIP. No installer, account or cloud dashboard.</p></div>
+<div class="step"><div class="n">02</div><h3>Test</h3><p>Open the HTML file locally and change the values that matter to your game.</p></div>
+<div class="step"><div class="n">03</div><h3>Export</h3><p>Take CSV or JSON results back into your design docs, spreadsheets or game pipeline.</p></div>
+</div></section>
+
+<section><div class="final"><div><h2 style="margin:0">Stop balancing blind.</h2><p>Pick the system you are tuning and get a clearer answer in minutes.</p></div><a class="btn primary" href="https://nikos0207.itch.io/">Open the TinyForge store</a></div></section>
+</div><footer><div class="wrap">© 2026 TinyForge Tools · Focused offline utilities for indie game developers.</div></footer></body></html>
