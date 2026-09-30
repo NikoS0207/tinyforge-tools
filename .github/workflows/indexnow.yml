@@ -1,0 +1,53 @@
+name: Notify IndexNow
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths:
+      - "**/*.html"
+      - "sitemap.xml"
+      - "llms.txt"
+      - ".github/workflows/indexnow.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Submit TinyForge and QuickForge URLs
+        shell: bash
+        run: |
+          cat > /tmp/indexnow.json <<'JSON'
+          {
+            "host": "nikos0207.github.io",
+            "key": "77fed4303711961c9055f2837ac37174",
+            "keyLocation": "https://nikos0207.github.io/tinyforge-tools/77fed4303711961c9055f2837ac37174.txt",
+            "urlList": [
+              "https://nikos0207.github.io/tinyforge-tools/",
+              "https://nikos0207.github.io/tinyforge-tools/dropchance/",
+              "https://nikos0207.github.io/tinyforge-tools/pity-calculator/",
+              "https://nikos0207.github.io/tinyforge-tools/xp-calculator/",
+              "https://nikos0207.github.io/tinyforge-tools/economy-calculator/",
+              "https://nikos0207.github.io/tinyforge-tools/guides/drop-rate-probability/",
+              "https://nikos0207.github.io/tinyforge-tools/guides/hard-pity/",
+              "https://nikos0207.github.io/tinyforge-tools/guides/xp-progression/",
+              "https://nikos0207.github.io/tinyforge-tools/guides/game-economy/",
+              "https://nikos0207.github.io/tinyforge-tools/services/",
+              "https://nikos0207.github.io/tinyforge-tools/services/spreadsheet-help.html",
+              "https://nikos0207.github.io/tinyforge-tools/services/web-calculator.html",
+              "https://nikos0207.github.io/tinyforge-tools/services/presentation-redesign.html",
+              "https://nikos0207.github.io/tinyforge-tools/services/youtube-thumbnails.html"
+            ]
+          }
+          JSON
+
+          status="$(curl -sS -o /tmp/indexnow-response -w "%{http_code}"             -X POST "https://api.indexnow.org/IndexNow"             -H "Content-Type: application/json; charset=utf-8"             --data-binary @/tmp/indexnow.json)"
+
+          echo "IndexNow HTTP status: $status"
+          cat /tmp/indexnow-response || true
+          if [[ "$status" != "200" && "$status" != "202" ]]; then
+            exit 1
+          fi
