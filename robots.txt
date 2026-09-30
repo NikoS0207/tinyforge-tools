@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nikos0207.github.io/tinyforge-tools/sitemap.xml

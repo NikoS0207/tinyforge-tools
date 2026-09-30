@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://nikos0207.github.io/tinyforge-tools/</loc><priority>1.0</priority></url>
+  <url><loc>https://nikos0207.github.io/tinyforge-tools/dropchance/</loc><priority>0.9</priority></url>
+  <url><loc>https://nikos0207.github.io/tinyforge-tools/grindscope/</loc><priority>0.8</priority></url>
+  <url><loc>https://nikos0207.github.io/tinyforge-tools/econscope/</loc><priority>0.8</priority></url>
+  <url><loc>https://nikos0207.github.io/tinyforge-tools/lootsim/</loc><priority>0.8</priority></url>
+</urlset>
