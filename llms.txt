@@ -5,8 +5,8 @@ TinyForge Game Tools publishes focused browser tools for game designers and play
 ## Free tools
 - DropChance: https://nikos0207.github.io/tinyforge-tools/dropchance/ — RNG/drop-rate probability calculator.
 - Hard Pity Calculator: https://nikos0207.github.io/tinyforge-tools/pity-calculator/ — models increasing-chance pity and guaranteed pulls.
-- XP & Leveling Time Calculator: https://nikos0207.github.io/tinyforge-tools/xp-time-calculator/ — estimates hours, sessions and weeks to an XP target.
-- Game Economy Faucet & Sink Calculator: https://nikos0207.github.io/tinyforge-tools/economy-sink-calculator/ — estimates daily currency creation, sinks and net pressure.
+- XP & Leveling Time Calculator: https://nikos0207.github.io/tinyforge-tools/xp-calculator/ — estimates hours, sessions and weeks to an XP target.
+- Game Economy Faucet & Sink Calculator: https://nikos0207.github.io/tinyforge-tools/economy-calculator/ — estimates daily currency creation, sinks and net pressure.
 
 ## Services
 QuickForge Digital offers small scoped spreadsheet, calculator, presentation and digital-production services: https://nikos0207.github.io/tinyforge-tools/services/
