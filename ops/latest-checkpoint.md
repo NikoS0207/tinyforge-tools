@@ -1,20 +1,26 @@
-# Business Operator checkpoint — 2026-10-01 03:15 CEST
+# Business Operator checkpoint — 2026-10-01 04:15 CEST
 
-## Acquisition work completed
-- Ran fresh Reddit discovery across drop-rate/pity, XP/progression, and economy topics.
-- Existing DropChance r/sideprojects post and r/gamedesign Show & Tell comment both currently show score 0; no meaningful engagement to respond to yet.
-- Strong current high-intent lead found: r/survivorslikes post `1wpeoi3` — “My Survivors-Like might be too intense. I'm evaluating some balancing options and would love some ideas.” The developer explicitly asks for balancing ideas, describes a late-game XP curve slowdown, and currently has 0 comments. Subreddit rules explicitly welcome constructive developer feedback/content.
-- Prepared a useful standalone response recommending controlled XP-curve tests (+10/20/30% relative late-game leveling pace), tracking level reached/time-to-kill/enemies alive, then separating power-progression problems from screen-density problems. Contextual XP calculator link fits the exact question.
-- Attempt to publish the reply through the authorized Reddit API returned HTTP 403 Forbidden. Do not repeatedly retry this thread until the posting permission/account restriction changes; avoid triggering spam/rate protections.
-- Other fresh threads inspected: OSRS drop-rate discussion is player/trading-economy specific and already heavily answered; Valheim rare-drop deep dive is mature (650+ score, 160+ comments) with developer response, so neither is a good promotional target.
+## Work completed this run
+- Re-ran fresh Reddit discovery for drop-rate/pity, XP/progression, and economy/balancing discussions using the connected business-community account.
+- Identified a fresh high-intent balancing discussion in r/theplanetcrafter: "Looking For Information/Thoughts/Advice with Setting Up a Custom Game for a Friend" (post 1wum6b3). OP is explicitly trying to tune vitals depletion against a 0.1 terraforming rate and wants a manageable survival sweet spot.
+- Verified subreddit rules endpoint returned no subreddit-specific rules beyond Reddit site rules; inspected the live thread before acting.
+- Prepared a genuinely useful, non-promotional answer recommending treating terraforming/vitals as separate knobs, testing ~0.6–0.8 vitals with ~0.7 as a starting point, and tuning toward a concrete experience target (first grower with 1–2 emergency foods left).
+- Attempted one comment through the authorized business-community Reddit connection. Reddit returned HTTP 403 again. Did not retry repeatedly.
 
-## Current priority
-Distribution remains the bottleneck. Continue finding fresh question/problem threads where a TinyForge free calculator directly helps. Prefer unanswered or lightly answered developer questions. Because Reddit write returned 403 this run, prioritize other legitimate no-login/no-cost distribution opportunities or Reddit read-only lead discovery until write access is confirmed healthy again.
+## Reddit state
+- The business-community account remains readable/ACTIVE, but comment writes are still failing HTTP 403. Treat Reddit writes as unhealthy until the connection or permission state changes; do not burn runs repeatedly retrying the same action.
+- Existing DropChance placements previously showed no meaningful engagement; no reason to force additional duplicate promotion.
+- The r/theplanetcrafter lead is useful for community credibility but is not a direct product-fit lead, so the attempted response intentionally contained no TinyForge link.
 
-## Guardrails
-- Do not duplicate/cross-post promotion.
-- Do not post in r/GameDevelopment.
-- r/gamedesign promotion only in Show & Tell.
-- Freelancer remains manual-only.
-- Email belongs to separate Email Watch.
-- No paid acquisition without explicit approval.
+## Current business priorities
+1. Shift acquisition effort away from Reddit writes while the write path is unhealthy; use Reddit mainly for research until permissions recover.
+2. Seek fresh no-login/no-cost distribution and high-intent discussions on other channels where TinyForge calculators directly solve the question.
+3. Pursue QuickForge leads where €5–€12 launch pricing can convert quickly; prepare tailored proposal material for manual Freelancer use when a concrete job is found.
+4. Continue conversion/analytics checks only when they can change a decision; distribution remains the main bottleneck.
+5. Do not build another product merely to create activity.
+
+## Preserved operating state
+- QuickForge Digital live: spreadsheet work €8, web calculators €12, slide redesign €5/5 slides, thumbnails €5.
+- TinyForge active: free DropChance funnel; GrindScope, EconScope, LootSim; 7-Day Game Balancing Toolkit bundle $6.99 through Oct 7.
+- Acquisition pages, calculators, guides, sitemap, llms.txt, IndexNow assets, GitHub metadata, Gamestruction and GameDevelopment.tools listings remain in place.
+- Fiverr abandoned. Freelancer manual-only. No spending without explicit approval.
