@@ -1,30 +1,33 @@
-# Business Operator checkpoint — 2026-10-01 07:16 CEST
+# Business Operator checkpoint — 2026-10-03 01:15 CEST
 
 ## Work completed this run
-- Re-verified the two highest-priority public Freelancer thumbnail leads rather than trusting the previous index snapshot. Both are still OPEN and still show only 1 proposal in the latest public pages.
-- Project 39791434 — Creative YouTube Thumbnail Design — remains the strongest lead: $250–750 USD, payment method verified, 1 proposal. Buyer explicitly requires 1280×720 JPG/PNG under 2 MB, fully layered editable PSD/AI/Figma, asset/font licensing details, timely communication and quick turnaround.
-- Project 39772730 — YouTube Thumbnail Design — remains open at ₹1,500–12,500 INR with 1 proposal; asks for an engaging 1280×720 custom thumbnail and portfolio examples.
-- Did not bid, message, login, or otherwise interact with Freelancer. Marketplace remains manual-only.
-- Verified the repository version of QuickForge's thumbnail service page already matches most of the strongest buyer requirements: 1280×720, under-2MB delivery if required, editable source, one revision, reference matching, fast starter turnaround, €5 first-thumbnail offer. Existing fictional thumbnail demo remains linked as portfolio proof.
-- No site rewrite was made this run because the current page already covers the useful requirements; avoided churn for its own sake.
+- Resumed from the Oct 1 checkpoint and kept distribution/leads as the bottleneck; no unrelated product creation.
+- Ran fresh public lead discovery without interacting with Freelancer.com or Gmail.
+- Found a strong new QuickForge thumbnail lead on YT Jobs: Get Fit With Rick (1.03M subscribers), posted Sep 9, remote, $75–$200/project, starts ASAP. They want an ongoing thumbnail designer and initially 3 concepts per video. This is materially better-value than the €5 starter service, though the stated 3+ years experience requirement makes it a reach lead.
+- Found an Upwork thumbnail lead posted Sep 7: $15 per thumbnail, worldwide, roughly weekly ongoing work, editable source file, <=3-day turnaround. It matches the existing QuickForge deliverable well, but Upwork account/application constraints may be a user-required barrier.
+- Found a recent Upwork presentation lead posted Sep 25: $30 fixed, worldwide, 5–10 proposals, high-end editorial webinar deck. Client has already made 1 hire, so lower priority.
+- Rejected/ignored presentation leads restricted to US/Canada or requiring 4–7+ years professional experience where they are clearly poor fit.
+- No money spent, no bids/messages sent, no fake identity/age claims, no spam.
 
-## Immediate manual lead priority
-1. Freelancer project 39791434 — https://www.freelancer.com/projects/adobe-photoshop/creative-youtube-thumbnail-design — $250–750 USD, 1 proposal, payment verified. Best immediate lead.
-2. Freelancer project 39772730 — https://www.freelancer.com/projects/adobe-creative-cloud/youtube-thumbnail-design-39772730 — ₹1,500–12,500 INR, 1 proposal. Second priority.
+## Immediate lead priority
+1. YT Jobs — Get Fit With Rick thumbnail designer — $75–$200/project, remote, ongoing, starts ASAP. https://ytjobs.co/job/44083
+2. Existing Freelancer project 39791434 — Creative YouTube Thumbnail Design — $250–750 USD, previously verified open with 1 proposal. Manual-only. https://www.freelancer.com/projects/adobe-photoshop/creative-youtube-thumbnail-design
+3. Upwork — YouTube Thumbnail Designer — $15/thumbnail, worldwide, ~1/week. https://www.upwork.com/freelance-jobs/apply/YouTube-Thumbnail-Designer-Eye-Catching-CTR-Focused-Designs-per-Thumbnail_~022096928112771476826/
+4. Existing Freelancer project 39772730 — YouTube Thumbnail Design — ₹1,500–12,500 INR, previously 1 proposal. Manual-only.
 
-## Proposal positioning for manual use
-- Lead with the €5 starter / low-risk first thumbnail only if platform bidding economics make sense; do not undercut blindly when the buyer budget is much higher.
-- Point to the existing QuickForge thumbnail demo as proof of visual directions.
-- For 39791434 explicitly mention: 1280×720, under 2 MB, layered editable source, quick turnaround, and that supplied/licensed assets can be documented. Do not promise performance/CTR.
-- For 39772730 emphasize 1280×720, reference/style matching, one revision, and fast delivery.
+## Positioning
+- For Get Fit With Rick, do not claim 3+ years experience. Pitch the ability to make 3 genuinely distinct concepts, work from 4K footage, and iterate based on what performs. Existing QuickForge demo can support visual proof but a fitness-specific sample would improve fit.
+- For the $15 Upwork lead, emphasize editable source, reliable <=3-day turnaround, and weekly consistency. Do not promise CTR outcomes.
+- Freelancer remains manual-only: research/proposal prep only, never browse/login/bid/message via automation.
 
 ## Next priorities
-1. Continue fresh lead discovery for QuickForge with low competition and active status; prioritize direct-fit work over broad old search results.
-2. Seek zero-cost non-Reddit acquisition channels; Reddit writes remain unhealthy after repeated 403s and should not be repeatedly retried.
-3. Distribution remains the bottleneck; avoid unrelated product creation.
-4. Re-check these two leads later because their unusually low competition can change quickly.
+1. Check whether the YT Jobs lead is still accepting applications and whether applying requires an account/age/KYC barrier; do not misrepresent age or identity.
+2. Build a fitness-channel-specific thumbnail sample/portfolio asset if it can be done zero-cost and without copying protected channel artwork.
+3. Continue fresh direct lead discovery, prioritizing worldwide/Europe-compatible, low-friction opportunities with explicit pay.
+4. Distribution remains the bottleneck; avoid new TinyForge products unless acquisition options are exhausted.
+5. Reddit authenticated writes previously returned 403; do not repeatedly retry unless the barrier materially changes.
 
 ## Preserved state
 - QuickForge: spreadsheet €8, web calculators €12, slide redesign €5/5 slides, thumbnails €5.
 - TinyForge: free DropChance; GrindScope, EconScope, LootSim; 7-Day Game Balancing Toolkit $6.99 through Oct 7.
-- Fiverr abandoned. Freelancer manual-only. No spending without explicit approval.
+- Fiverr abandoned permanently. Freelancer manual-only. Email monitoring belongs to separate automation. No spending without explicit approval.
