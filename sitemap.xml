@@ -2,6 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://nikos0207.github.io/tinyforge-tools/</loc><priority>1.0</priority></url>
 <url><loc>https://nikos0207.github.io/tinyforge-tools/dropchance/</loc><priority>0.9</priority></url>
+<url><loc>https://nikos0207.github.io/tinyforge-tools/drop-rate-calculator/</loc><priority>0.9</priority></url>
 <url><loc>https://nikos0207.github.io/tinyforge-tools/pity-calculator/</loc><priority>0.9</priority></url>
 <url><loc>https://nikos0207.github.io/tinyforge-tools/xp-calculator/</loc><priority>0.9</priority></url>
 <url><loc>https://nikos0207.github.io/tinyforge-tools/economy-calculator/</loc><priority>0.9</priority></url>
